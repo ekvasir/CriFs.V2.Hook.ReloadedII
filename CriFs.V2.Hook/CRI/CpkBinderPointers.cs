@@ -142,8 +142,7 @@ internal static class CpkBinderPointers
                             "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 40 49 8B F9 49 8B D8 48", // in dll
                         CriFsBinder_GetSizeForBindFiles = "48 8B C4 48 89 58 08 48 89 70 18 57 48 81 EC 30", // in dll
                         CriFsBinder_GetStatus = "48 89 5C 24 08 57 48 83 EC 20 48 8B DA 8B F9 85", // in exe & dll
-                        CriFsBinder_SetPriority =
-                            "48 89 5C 24 08 57 48 83 EC 20 8B FA E8 ?? ?? ?? ?? 48 8B D8 48 85 C0 75 18 8D 58 FE 48 8D 15 ?? ?? ?? ?? 33 C9 44 8B C3 E8 ?? ?? ?? ?? 8B C3 EB",     // maybe in .exe & dll  ??
+                        CriFsBinder_SetPriority = "", // Not Present
                         CriFsBinder_Unbind = "48 89 5C 24 08 57 48 83 EC 20 8B F9 E8 ?? ?? ?? ?? 48 8B D8", // in exe & dll
                         CriFsLoader_RegisterFile =
                             "48 8B C4 48 89 58 10 48 89 70 18 48 89 78 20 55 41 54 41 55 41 56 41 57 48 8D 68 A9",  // in exe & dll
